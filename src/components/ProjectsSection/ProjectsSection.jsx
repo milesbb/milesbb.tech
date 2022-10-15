@@ -49,7 +49,7 @@ const ProjectsSection = () => {
 
         background: "white",
       }}
-      className="d-flex flex-column py-5"
+      className="d-flex flex-column py-5 mb-4"
     >
       <h2 className="text-center mx-auto my-5">PROJECTS</h2>
       <h3 className="text-center mx-auto my-3">Click or tap one to find out more...</h3>

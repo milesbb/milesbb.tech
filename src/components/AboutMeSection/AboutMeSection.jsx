@@ -4,6 +4,7 @@ const AboutMeSection = () => {
       style={{
         width: "100vw",
         background: "#39A9DB",
+        boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)"
       }}
       className="py-5 mb-2"
     >

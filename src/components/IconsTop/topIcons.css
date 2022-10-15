@@ -1,0 +1,26 @@
+.topLI {
+    fill: #0072b1;
+    transition: fill 0.2s ease;
+}
+
+.topLI:hover {
+    fill: #0e98e3;
+}
+
+.topGH {
+    fill: #333;
+    transition: fill 0.2s ease;
+}
+
+.topGH:hover {
+    fill: #8f8f8f;
+}
+
+.topEM {
+    fill: #bd2c00;
+    transition: fill 0.2s ease;
+}
+
+.topEM:hover {
+    fill: #fa5b2a;
+}

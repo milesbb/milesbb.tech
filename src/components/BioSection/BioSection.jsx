@@ -8,8 +8,9 @@ const BioSection = () => {
       style={{
         width: "100vw",
         background: "#1C77C3",
+        boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)"
       }}
-      className="d-flex py-5 bio"
+      className="d-flex py-5 bio mb-5"
       id="aboutMeId"
     >
       <div className="w-75 d-flex mx-auto">
