@@ -29,7 +29,7 @@ const BioSection = () => {
           <Button
             variant="light"
             className="mx-auto"
-            style={{ fontSize: "2rem", height: "63px", borderRadius: "0px" }}
+            style={{ fontSize: "2rem", height: "63px", borderRadius: "0px", boxShadow: "1px 2px 10px 2px rgba(0,0,0,0.3)" }}
           >
             RESUME
           </Button>
