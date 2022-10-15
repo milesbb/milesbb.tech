@@ -9,7 +9,7 @@ const Title = () => {
         className="text-left position-relative mx-auto respTitleCont"
       >
         <h1 className="mt-4 font-weight-bold respTitle">
-          Miles Bailey-<span style={{ color: "#3983fa" }}>Braendgaard</span>
+          Miles Bailey-<span className="lastName" style={{ color: "#3983fa" }}>Braendgaard</span>
         </h1>
         <div className="w-100 d-flex">
           <Image

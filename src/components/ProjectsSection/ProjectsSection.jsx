@@ -66,7 +66,7 @@ const ProjectsSection = () => {
                 src={earthCover}
                 className="image1 mx-auto w-100"
               />
-              <div className="middle1 d-flex font-weight-bold text-center pr-4 text">
+              <div className="middle1 d-flex font-weight-bold text-center text">
                 React Three Fiber Weather App
               </div>
             </div>
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
                 src={botCover}
                 className="image2 mx-auto w-100"
               />
-              <div className="middle2 d-flex font-weight-bold text-center pr-4 text">
+              <div className="middle2 d-flex font-weight-bold text-center text">
                 'Artbot' Chatbot for ecommerce website
               </div>
             </div>
@@ -100,7 +100,7 @@ const ProjectsSection = () => {
                 src={linkedCover}
                 className="image3 mx-auto w-100"
               />
-              <div className="middle3 d-flex font-weight-bold text-center pr-4 text">
+              <div className="middle3 d-flex font-weight-bold text-center text">
                 LinkedIn React Recreation
               </div>
             </div>
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
                 src={spotifyCover}
                 className="image4 mx-auto w-100"
               />
-              <div className="middle4 d-flex font-weight-bold text-center pr-4 text">
+              <div className="middle4 d-flex font-weight-bold text-center text">
                 Spotify Recreation
               </div>
             </div>

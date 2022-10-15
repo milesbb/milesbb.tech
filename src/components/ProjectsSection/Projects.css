@@ -151,4 +151,40 @@
     .text {
         font-size: 1rem;
     }
+
+    .projectTitlesMobile {
+      display: block;
+    }
+
+    .image1 {
+      opacity: 0.4;
+    }
+
+    .image2 {
+      opacity: 0.4;
+    }
+
+    .image3 {
+      opacity: 0.4;
+    }
+
+    .image4 {
+      opacity: 0.4;
+    }
+
+    .middle1 {
+      opacity: 1;
+    }
+
+    .middle2 {
+      opacity: 1;
+    }
+
+    .middle3 {
+      opacity: 1;
+    }
+
+    .middle4 {
+      opacity: 1;
+    }
   }
