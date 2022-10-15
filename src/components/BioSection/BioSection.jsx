@@ -1,4 +1,3 @@
-import { joinPaths } from "@remix-run/router";
 import { Button } from "react-bootstrap";
 import "./BioSection.css";
 import cv from "../../assets/cv.pdf";
