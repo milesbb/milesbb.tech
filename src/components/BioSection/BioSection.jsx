@@ -14,7 +14,7 @@ const BioSection = () => {
     >
       <div className="w-75 d-flex mx-auto">
         <p className="text-white px-4 mx-auto mt-2">
-          Fullstack developer constantly learning and developing my skills.
+          Fullstack engineer constantly learning and developing my skills.
           Background in biomechanics, computer science, engineering, and the
           arts.
         </p>
