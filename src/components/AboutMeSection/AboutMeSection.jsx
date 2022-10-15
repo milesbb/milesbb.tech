@@ -10,7 +10,7 @@ const AboutMeSection = () => {
       <h2 className="text-white mb-4">ABOUT ME</h2>
       <p className="text-white px-4 mx-auto mt-2 w-75">
         Born in the UK, degree in Scandinavia, picked up some languages along
-        the way (proficient in Danish, Swedish, intermediate German).
+        the way (native English, proficient in Danish and Swedish, intermediate German).
       </p>
       <p className="text-white px-4 mx-auto mt-2 w-75">
         Now studying full-stack software engineering at EPICODE (formerly Strive
