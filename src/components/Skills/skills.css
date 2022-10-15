@@ -1,0 +1,23 @@
+.skillsText {
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .skillsText {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsText {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillsText {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,15 @@
+.bioButtonCont {
+    width: 25%;
+}
+
+@media (max-width: 768px) {
+    .bio{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .bioButtonCont {
+        width: auto;
+    }
+}

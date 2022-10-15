@@ -1,0 +1,20 @@
+.buttonTransparent {
+    width: 26rem;
+    height: 18rem;
+    background: purple;
+}
+
+.buttonBg {
+  width: 26rem;
+  height: 18rem;
+  background-color: red;
+  border-style: none solid solid none;
+  border-width: 4px;
+  border-color: darkred;
+  transition: backgroundColor 1s ease-in-out;
+}
+
+.buttonBg:hover {
+    background-color: green;
+
+}

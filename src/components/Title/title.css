@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    overscroll-behavior: none;
+}
+
+.respTitle {
+  line-height: 0.3rem;
+  font-size: 4.4rem;
+  margin-bottom: 50px;
+}
+
+.respTitleCont {
+  margin-top: 25vh;
+}
+
+.respSubtitle {
+  font-size: 3rem;
+  line-height: 0.3rem;
+  margin-top: 0px;
+}
+
+.responsiveTitleImg {
+  position: absolute;
+  top: 14%;
+  right: 0%;
+}
+
+.respTitleButtons {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  .respTitle {
+    font-size: 4rem;
+  }
+
+  .respSubtitle {
+    font-size: 3rem;
+    
+  }
+
+  .responsiveTitleImg {
+    right: 0%;
+    width: 300px;
+  }
+}
+
+@media (max-width: 935px) {
+  .respTitle {
+    font-size: 3.2rem;
+  }
+
+  .respSubtitle {
+    font-size: 2.5rem;
+  }
+
+  .responsiveTitleImg {
+    right: 0;
+    width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .respTitle {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .respSubtitle {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .respTitleCont {
+    width: 75%;
+  }
+
+  .responsiveTitleImg {
+    margin: auto;
+    width: 230px;
+    position: static;
+  }
+
+  .respTitleButtons {
+    font-size: 1.2rem;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .respTitleButtonsCont {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .respTitle {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0px;
+    /* margin-right: 10px; */
+    text-align: center;
+  }
+
+  .respSubtitle {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .respTitleCont {
+    margin-top: 10vh;
+    width: 80vw;
+  }
+
+  .responsiveTitleImg {
+    margin-left: 3rem;
+    width: 230px;
+  }
+}
