@@ -283,6 +283,17 @@ const Awards = () => {
                 solid mechanics and mathematics, and 2D/3D spatial data capture
                 and processing with two clinical placements.
               </p>
+              <p>
+                Thesis on 3D scanning spatial data accuracy and reliability (
+                <a
+                  href="http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1665350&dswid=-7765"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Available here
+                </a>
+                )
+              </p>
             </div>
           </Col>
         </Row>
