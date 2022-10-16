@@ -8,9 +8,9 @@ const ContactMeSection = () => {
         background: "#124D7D",
         boxShadow: "1px 7px 20px 10px rgba(0,0,0,0.4)"
       }}
-      className="py-5"
+      className="py-5 mt-5"
     >
-      <h2 id="getInTouch" className="text-white">
+      <h2 id="contact" className="text-white">
         GET IN TOUCH
       </h2>
       <div className="d-flex flex-column">

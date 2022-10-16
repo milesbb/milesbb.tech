@@ -7,6 +7,7 @@ import BioSection from "./components/BioSection/BioSection";
 import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import AboutMeSection from "./components/AboutMeSection/AboutMeSection";
 import ContactMeSection from "./components/ContactMeSection/ContactMeSection";
+import Awards from "./components/Awards/Awards";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <ProjectsSection />
       <AboutMeSection />
       <Skills />
+      <Awards />
+      
       <ContactMeSection />
     </div>
   );

@@ -12,7 +12,7 @@ const BioSection = () => {
         boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)",
       }}
       className="d-flex py-5 bio mb-5"
-      id="aboutMeId"
+      id="projects"
     >
       <div className="mx-auto d-flex">
         <Image className="mx-auto" style={{borderRadius: "500px", boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)", width: "50%"}} alt="my face" src={pp} />

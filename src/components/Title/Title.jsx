@@ -5,11 +5,12 @@ import "./title.css";
 const Title = () => {
   return (
     <div style={{ width: "100vw", height: "90vh" }} className="d-flex">
-      <div
-        className="text-left position-relative mx-auto respTitleCont"
-      >
+      <div className="text-left position-relative mx-auto respTitleCont">
         <h1 className="mt-4 font-weight-bold respTitle">
-          Miles Bailey-<span className="lastName" style={{ color: "#3983fa" }}>Braendgaard</span>
+          Miles Bailey-
+          <span className="lastName" style={{ color: "#3983fa" }}>
+            Braendgaard
+          </span>
         </h1>
         <div className="w-100 d-flex">
           <Image
@@ -18,15 +19,21 @@ const Title = () => {
             src={pronunciation}
           />
         </div>
-        <h1 className="mb-5 respSubtitle">
-          Software Engineer
-        </h1>
+        <h1 className="mb-5 respSubtitle">Software Engineer</h1>
         <div className="d-flex respTitleButtonsCont">
           <Button
             variant="dark"
             className="font-weight-bold mx-2 respTitleButtons"
             style={{ borderRadius: "0px" }}
-            href="#aboutMeId"
+            href="#projects"
+          >
+            PROJECTS
+          </Button>
+          <Button
+            variant="dark"
+            className="font-weight-bold mx-2 respTitleButtons"
+            style={{ borderRadius: "0px" }}
+            href="#about"
           >
             ABOUT ME
           </Button>
@@ -34,7 +41,7 @@ const Title = () => {
             variant="dark"
             className="font-weight-bold mx-2 respTitleButtons"
             style={{ borderRadius: "0px" }}
-            href="#getInTouch"
+            href="#contact"
           >
             GET IN TOUCH
           </Button>

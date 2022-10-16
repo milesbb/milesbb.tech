@@ -7,6 +7,7 @@ const AboutMeSection = () => {
         boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)"
       }}
       className="py-5 mb-2"
+      id="about"
     >
       <h2 className="text-white mb-4">ABOUT ME</h2>
       <p className="text-white px-4 mx-auto mt-2 w-75">
