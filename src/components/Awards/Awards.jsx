@@ -18,7 +18,7 @@ const Awards = () => {
       <div
         style={{
           width: "100vw",
-          background: "#1C77C3",
+          background: "#2C365E",
           boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)",
         }}
         className="mt-5 p-3 text-white"
@@ -204,7 +204,7 @@ const Awards = () => {
       <div
         style={{
           width: "100vw",
-          background: "#1C77C3",
+          background: "#484D6D",
           boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)",
         }}
         className="mt-5 p-3 text-white"
