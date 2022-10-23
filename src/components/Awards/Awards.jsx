@@ -231,7 +231,7 @@ const Awards = () => {
           </Col>
           <Col sm={12} md={8}>
             <div className="p-4">
-              <h4 className="mb-4">EPICODE (AKA Strive School)</h4>
+              <h4 className="mb-4">Full-Stack Developer Course | EPICODE (AKA Strive School)</h4>
               <p>Jul - Dec 2022</p>
               <p>
                 High-intensive highly-rated Full-Stack (MERN + PERN) Development
