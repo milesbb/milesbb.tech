@@ -265,13 +265,12 @@ const ProjectsSection = () => {
       <Modal show={show3} onHide={handleClose3}>
         <Modal.Header>
           <Modal.Title className="mx-auto">
-            React LinkedIn Recreation
+            React Node.js LinkedIn Recreation
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p className="text-center">
-            React LinkedIn Recreation made as lead of a small team in an
-            EPICODE/StriveSchool build week
+            React LinkedIn project with Node.js backend API
           </p>
           <Image
             alt="linkedin posts page recreation"
@@ -279,8 +278,8 @@ const ProjectsSection = () => {
             style={{ width: "100%" }}
           />
           <p className="text-center">
-            Uses React, Redux, React Bootstrap, and CRUD API use e.g. loading +
-            CRUD for posts with images and pagination (above), or ...
+            Uses React, Redux, React Bootstrap, and Node/Express API use e.g. loading +
+            CRUD for posts with images (cloudinary) and pagination (above), or ...
           </p>
           <Image
             alt="linkedin new post recreation"
