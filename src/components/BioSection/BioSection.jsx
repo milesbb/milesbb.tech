@@ -1,7 +1,7 @@
 import { Button, Image } from "react-bootstrap";
 import "./BioSection.css";
 import cv from "../../assets/cv.pdf";
-import pp from "../../assets/pp.jpeg";
+import pp from "../../assets/pp.png";
 
 const BioSection = () => {
   return (
@@ -15,7 +15,7 @@ const BioSection = () => {
       id="projects"
     >
       <div className="mx-auto d-flex">
-        <Image className="mx-auto" style={{borderRadius: "500px", boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)", width: "50%"}} alt="my face" src={pp} />
+        <Image className="mx-auto" style={{borderRadius: "500px", boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)", width: "48%"}} alt="my face" src={pp} />
       </div>
       <div className="w-75 d-flex mx-auto mt-5">
         <p className="text-white pr-md-4 mx-auto mt-2">
