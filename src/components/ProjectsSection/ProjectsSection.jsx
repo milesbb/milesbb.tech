@@ -64,7 +64,8 @@ const ProjectsSection = () => {
           <Col xs={12} md={6} className="d-flex">
             <AnimationOnScroll
               animateIn="animate__fadeInLeftBig"
-              animateOut="animate__fadeOutLeftBig"
+              // animateOut="animate__fadeOutLeftBig"
+              animateOnce={true}
               duration={0.5}
             >
               <div
@@ -86,7 +87,8 @@ const ProjectsSection = () => {
           <Col xs={12} md={6} className="d-flex">
             <AnimationOnScroll
               animateIn="animate__fadeInLeftBig"
-              animateOut="animate__fadeOutLeftBig"
+              // animateOut="animate__fadeOutLeftBig"
+              animateOnce={true}
               duration={0.5}
             >
               <div
@@ -111,7 +113,8 @@ const ProjectsSection = () => {
           <Col xs={12} md={6} className="d-flex">
             <AnimationOnScroll
               animateIn="animate__fadeInRightBig"
-              animateOut="animate__fadeOutRightBig"
+              // animateOut="animate__fadeOutRightBig"
+              animateOnce={true}
               duration={0.5}
             >
               <div
@@ -133,7 +136,8 @@ const ProjectsSection = () => {
           <Col xs={12} md={6} className="d-flex">
             <AnimationOnScroll
               animateIn="animate__fadeInRightBig"
-              animateOut="animate__fadeOutRightBig"
+              // animateOut="animate__fadeOutRightBig"
+              animateOnce={true}
               duration={0.5}
             >
               <div
