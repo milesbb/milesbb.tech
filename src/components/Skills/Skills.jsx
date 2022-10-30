@@ -1,4 +1,5 @@
 import { Canvas } from "@react-three/fiber";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Col, Container, Row } from "react-bootstrap";
 import NEWANIMODELModel from "../Model/AnimalfaceNEWPLEASE";
 import "./skills.css";
@@ -28,10 +29,12 @@ const Skills = () => {
               <p style={{ listStyle: "none", fontSize: "1.3rem" }}>
                 Some tools and languages that I've worked with before
               </p>
+              <AnimationOnScroll initiallyVisible={true} delay={1500} animateIn="animate__tada">
               <p>
                 P.S. try hovering over my wolf (if you're on mobile try tapping
                 around it)
               </p>
+              </AnimationOnScroll>
               <div className="d-flex">
                 <div className="mx-auto">
                   <ul

@@ -9,6 +9,7 @@ import epicode from "../../assets/epicodelogo.png";
 import strive from "../../assets/strivelogo.png";
 import aktiv from "../../assets/aktivlogo.png";
 import ju from "../../assets/julogo.jpeg";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Awards = () => {
   return (
@@ -74,6 +75,7 @@ const Awards = () => {
             </div>
           </Col>
         </Row>
+        <hr></hr>
         <Row>
           <Col sm={12} md={4}>
             <div className="d-flex justify-content-between">
@@ -122,6 +124,7 @@ const Awards = () => {
             </div>
           </Col>
         </Row>
+        <hr></hr>
         <Row>
           <Col sm={12} md={4}>
             <a
@@ -148,6 +151,7 @@ const Awards = () => {
             </div>
           </Col>
         </Row>
+        <hr></hr>
         <Row className="mt-5">
           <Col sm={12} md={4}>
             <div className="d-flex justify-content-between">
@@ -249,6 +253,7 @@ const Awards = () => {
             </div>
           </Col>
         </Row>
+        <hr></hr>
         <Row>
           <Col sm={12} md={4}>
             <a
@@ -301,10 +306,12 @@ const Awards = () => {
 
       {/* Resume Button */}
       <div className="mt-5 mb-4 w-75 mx-auto">
+      <AnimationOnScroll animateIn="animate__fadeInLeftBig">
         <h4 className="my-5">
           For more information on my experiences or education then check out my
           CV!
         </h4>
+        </AnimationOnScroll>
         <a href={cv} download="MilesBaileyBraendgaardCV.pdf">
           <Button
             variant="dark"

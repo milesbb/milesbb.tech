@@ -1,3 +1,4 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import "./contact.css"
 
 const ContactMeSection = () => {
@@ -10,9 +11,11 @@ const ContactMeSection = () => {
       }}
       className="py-5 mt-5"
     >
+      <AnimationOnScroll initiallyVisible={true} delay={800} animateIn="animate__wobble">
       <h2 id="contact" className="text-white">
         GET IN TOUCH
       </h2>
+      </AnimationOnScroll>
       <div className="d-flex flex-column">
         <div className="d-flex w-100 mt-5">
           <div className="mx-auto d-flex">

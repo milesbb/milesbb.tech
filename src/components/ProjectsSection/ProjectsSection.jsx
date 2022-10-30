@@ -24,6 +24,8 @@ import spotifyCreateAccount from "../../assets/spotify/createaccount.png";
 import "./Projects.css";
 import { useState } from "react";
 
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
 const ProjectsSection = () => {
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -46,81 +48,109 @@ const ProjectsSection = () => {
     <div
       style={{
         width: "100vw",
-
-        background: "white",
       }}
-      className="d-flex flex-column py-5 mb-4"
+      className="d-flex flex-column py-5 mb-5"
     >
       <h2 className="text-center mx-auto mb-5">PROJECTS</h2>
-      <p style={{fontSize: "1.4rem"}}>A few projects that I've made or been a part of.</p>
-      <h3 className="text-center mx-auto my-3">Click or tap one to find out more...</h3>
+      <p style={{ fontSize: "1.4rem" }}>
+        A few projects that I've made or been a part of.
+      </p>
+      <h3 className="text-center mx-auto my-3">
+        Click or tap one to find out more...
+      </h3>
+
       <Container className="mt-5">
         <Row>
           <Col xs={12} md={6} className="d-flex">
-            <div
-              className="mb-5 container1 w-75 mx-auto"
-              style={{ cursor: "pointer" }}
-              onClick={handleShow1}
+            <AnimationOnScroll
+              animateIn="animate__fadeInLeftBig"
+              animateOut="animate__fadeOutLeftBig"
+              duration={0.5}
             >
-              <Image
-                alt="earth web3 project"
-                src={earthCover}
-                className="image1 mx-auto w-100"
-              />
-              <div className="middle1 d-flex font-weight-bold text-center text">
-                React Three Fiber Weather App
+              <div
+                className="mb-5 container1 w-75 mx-auto"
+                style={{ cursor: "pointer" }}
+                onClick={handleShow1}
+              >
+                <Image
+                  alt="earth web3 project"
+                  src={earthCover}
+                  className="image1 mx-auto w-100"
+                />
+                <div className="middle1 d-flex font-weight-bold text-center text">
+                  React Three Fiber Weather App
+                </div>
               </div>
-            </div>
+            </AnimationOnScroll>
           </Col>
           <Col xs={12} md={6} className="d-flex">
-            <div
-              className="mb-5 container2 w-75 mx-auto"
-              style={{ cursor: "pointer" }}
-              onClick={handleShow2}
+            <AnimationOnScroll
+              animateIn="animate__fadeInLeftBig"
+              animateOut="animate__fadeOutLeftBig"
+              duration={0.5}
             >
-              <Image
-                alt="artbot aiml project"
-                src={botCover}
-                className="image2 mx-auto w-100"
-              />
-              <div className="middle2 d-flex font-weight-bold text-center text">
-                'Artbot' Chatbot for ecommerce website
+              <div
+                className="mb-5 container2 w-75 mx-auto"
+                style={{ cursor: "pointer" }}
+                onClick={handleShow2}
+              >
+                <Image
+                  alt="artbot aiml project"
+                  src={botCover}
+                  className="image2 mx-auto w-100"
+                />
+                <div className="middle2 d-flex font-weight-bold text-center text">
+                  'Artbot' Chatbot for ecommerce website
+                </div>
               </div>
-            </div>
+            </AnimationOnScroll>
           </Col>
         </Row>
+
         <Row>
           <Col xs={12} md={6} className="d-flex">
-            <div
-              className="mb-5 container3 w-75 mx-auto"
-              style={{ cursor: "pointer" }}
-              onClick={handleShow3}
+            <AnimationOnScroll
+              animateIn="animate__fadeInRightBig"
+              animateOut="animate__fadeOutRightBig"
+              duration={0.5}
             >
-              <Image
-                alt="linkedin react project"
-                src={linkedCover}
-                className="image3 mx-auto w-100"
-              />
-              <div className="middle3 d-flex font-weight-bold text-center text">
-                LinkedIn React Recreation
+              <div
+                className="mb-5 container3 w-75 mx-auto"
+                style={{ cursor: "pointer" }}
+                onClick={handleShow3}
+              >
+                <Image
+                  alt="linkedin react project"
+                  src={linkedCover}
+                  className="image3 mx-auto w-100"
+                />
+                <div className="middle3 d-flex font-weight-bold text-center text">
+                  LinkedIn React Recreation
+                </div>
               </div>
-            </div>
+            </AnimationOnScroll>
           </Col>
           <Col xs={12} md={6} className="d-flex">
-            <div
-              className="mb-5 container4 w-75 mx-auto"
-              style={{ cursor: "pointer" }}
-              onClick={handleShow4}
+            <AnimationOnScroll
+              animateIn="animate__fadeInRightBig"
+              animateOut="animate__fadeOutRightBig"
+              duration={0.5}
             >
-              <Image
-                alt="spotify project"
-                src={spotifyCover}
-                className="image4 mx-auto w-100"
-              />
-              <div className="middle4 d-flex font-weight-bold text-center text">
-                Spotify Recreation
+              <div
+                className="mb-5 container4 w-75 mx-auto"
+                style={{ cursor: "pointer" }}
+                onClick={handleShow4}
+              >
+                <Image
+                  alt="spotify project"
+                  src={spotifyCover}
+                  className="image4 mx-auto w-100"
+                />
+                <div className="middle4 d-flex font-weight-bold text-center text">
+                  Spotify Recreation
+                </div>
               </div>
-            </div>
+            </AnimationOnScroll>
           </Col>
         </Row>
       </Container>
@@ -278,8 +308,9 @@ const ProjectsSection = () => {
             style={{ width: "100%" }}
           />
           <p className="text-center">
-            Uses React, Redux, React Bootstrap, and Node/Express API use e.g. loading +
-            CRUD for posts with images (cloudinary) and pagination (above), or ...
+            Uses React, Redux, React Bootstrap, and Node/Express API use e.g.
+            loading + CRUD for posts with images (cloudinary) and pagination
+            (above), or ...
           </p>
           <Image
             alt="linkedin new post recreation"
@@ -384,19 +415,28 @@ const ProjectsSection = () => {
             src={spotifySearch}
             style={{ width: "100%" }}
           />
-          <p className="text-center">Searchable database that displays results with same playable and linkable functionality</p>
+          <p className="text-center">
+            Searchable database that displays results with same playable and
+            linkable functionality
+          </p>
           <Image
             alt="spotify login rec"
             src={spotifyLogin}
             style={{ width: "100%" }}
           />
-          <p className="text-center">Login functionality included with error catching to prevent incomplete/incorrect/nonexistent userdata</p>
+          <p className="text-center">
+            Login functionality included with error catching to prevent
+            incomplete/incorrect/nonexistent userdata
+          </p>
           <Image
             alt="spotify create account rec"
             src={spotifyCreateAccount}
             style={{ width: "100%" }}
           />
-          <p className="text-center">Users can create their account and use their login details to log in which will then persist between pages</p>
+          <p className="text-center">
+            Users can create their account and use their login details to log in
+            which will then persist between pages
+          </p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose4}>

@@ -2,16 +2,18 @@ import { Button, Image } from "react-bootstrap";
 import "./BioSection.css";
 import cv from "../../assets/cv.pdf";
 import pp from "../../assets/pp.png";
+import {ScrollPage} from "react-scroll-motion"
 
 const BioSection = () => {
   return (
+    // <ScrollPage>
     <div
       style={{
         width: "100vw",
         background: "#1C77C3",
         boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)",
       }}
-      className="d-flex py-5 bio mb-5"
+      className="d-flex py-5 bio mb-5 mt-5"
       id="projects"
     >
       <div className="mx-auto d-flex">
@@ -36,6 +38,7 @@ const BioSection = () => {
         </a>
       </div>
     </div>
+    // </ScrollPage>
   );
 };
 
