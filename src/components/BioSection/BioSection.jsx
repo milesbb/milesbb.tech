@@ -16,8 +16,8 @@ const BioSection = () => {
       className="d-flex py-5 bio mb-5 mt-5"
       id="projects"
     >
-      <div className="mx-auto d-flex">
-        <Image className="mx-auto" style={{borderRadius: "500px", boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)", width: "48%"}} alt="my face" src={pp} />
+      <div className="mx-auto d-flex imageCont">
+        <Image className="mx-auto faceImg" style={{borderRadius: "500px", boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)" }} alt="my face" src={pp} />
       </div>
       <div className="w-75 d-flex mx-auto mt-5">
         <p className="text-white pr-md-4 mx-auto mt-2">

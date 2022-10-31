@@ -2,6 +2,22 @@
     width: 25%;
 }
 
+.faceImg {
+    width: 22vh;
+    height: 22vh
+}
+
+.imageCont {
+    width: 30%;
+}
+
+@media (max-width: 993px) {
+    .faceImg {
+        width: 19vh;
+        height: 19vh
+    }
+}
+
 @media (max-width: 768px) {
     .bio{
         flex-direction: column;
@@ -9,7 +25,16 @@
         margin: auto;
     }
 
+    .imageCont {
+        width: 50%;
+    }
+
     .bioButtonCont {
         width: auto;
+    }
+
+    .faceImg {
+        width: 27vh;
+        height: 27vh
     }
 }
