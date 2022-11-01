@@ -21,6 +21,10 @@ import spotifySearch from "../../assets/spotify/search.png";
 import spotifyLogin from "../../assets/spotify/login.png";
 import spotifyCreateAccount from "../../assets/spotify/createaccount.png";
 
+import globeChatCover from "../../assets/globeChat/globechatgif.gif";
+import globeChatMain from "../../assets/globeChat/webbogif.gif";
+import globeChatChat from "../../assets/globeChat/mobileview.png";
+
 import "./Projects.css";
 import { useState } from "react";
 
@@ -31,6 +35,7 @@ const ProjectsSection = () => {
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
   const [show4, setShow4] = useState(false);
+  const [show5, setShow5] = useState(false);
 
   const handleClose1 = () => setShow1(false);
   const handleShow1 = () => setShow1(true);
@@ -43,6 +48,9 @@ const ProjectsSection = () => {
 
   const handleClose4 = () => setShow4(false);
   const handleShow4 = () => setShow4(true);
+
+  const handleClose5 = () => setShow5(false);
+  const handleShow5 = () => setShow5(true);
 
   return (
     <div
@@ -108,11 +116,37 @@ const ProjectsSection = () => {
             </AnimationOnScroll>
           </Col>
         </Row>
-
         <Row>
+          <Col xs={0} md={3}></Col>
           <Col xs={12} md={6} className="d-flex">
             <AnimationOnScroll
               animateIn="animate__fadeInRightBig"
+              // animateOut="animate__fadeOutRightBig"
+              animateOnce={true}
+              duration={0.5}
+            >
+              <div
+                className="mb-5 container3 w-75 mx-auto"
+                style={{ cursor: "pointer" }}
+                onClick={handleShow5}
+              >
+                <Image
+                  alt="globechat"
+                  src={globeChatMain}
+                  className="image3 mx-auto w-100"
+                />
+                <div className="middle3 d-flex font-weight-bold text-center text">
+                  Globe Chat
+                </div>
+              </div>
+            </AnimationOnScroll>
+          </Col>
+          <Col xs={0} md={3}></Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={6} className="d-flex">
+            <AnimationOnScroll
+              animateIn="animate__fadeInLeftBig"
               // animateOut="animate__fadeOutRightBig"
               animateOnce={true}
               duration={0.5}
@@ -157,6 +191,7 @@ const ProjectsSection = () => {
             </AnimationOnScroll>
           </Col>
         </Row>
+        
       </Container>
 
       {/* Earth modal */}
@@ -458,6 +493,72 @@ const ProjectsSection = () => {
           <Button
             variant="dark"
             href="https://github.com/milesbb/U2-Wk8-BuildWeek-Spotify"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      {/* GlobeChat Modal */}
+
+      <Modal show={show5} onHide={handleClose5}>
+        <Modal.Header>
+          <Modal.Title className="mx-auto">
+            GlobeChat Online Chat app
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Image
+            alt="Globe chat start page"
+            src={globeChatCover}
+            className="mb-5"
+            style={{ width: "100%" }}
+          />
+          <p className="text-center">
+            Online chat app using Socket.io and Node.js
+          </p>
+          <Image
+            alt="Globe chat start page"
+            className="my-4"
+            src={globeChatMain}
+            style={{ width: "100%", border: "solid 1px black" }}
+          />
+          <p className="text-center">
+            Simultaneous chat cross browser, mobile friendly view included
+          </p>
+          <Image
+            alt="Globe chat mobile chat"
+            src={globeChatChat}
+            style={{ width: "100%" }}
+          />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose5}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/milesbb/Globe-Chat"
             target="_blank"
             rel="noopener noreferrer"
           >

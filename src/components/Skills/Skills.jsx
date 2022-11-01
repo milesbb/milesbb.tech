@@ -63,6 +63,7 @@ const Skills = () => {
                     <li>SendGrid</li>
                     <li>Git + Github</li>
                     <li>MongoDB</li>
+                    <li>SQL</li>
                     <li>PostgreSQL</li>
                     <li>Blender</li>
                   </ul>
