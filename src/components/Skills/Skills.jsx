@@ -29,7 +29,7 @@ const Skills = () => {
               <p style={{ listStyle: "none", fontSize: "1.3rem" }}>
                 Some tools and languages that I've worked with before
               </p>
-              <AnimationOnScroll initiallyVisible={true} delay={1500} animateIn="animate__tada">
+              <AnimationOnScroll initiallyVisible={true} delay={1000} animateIn="animate__tada">
               <p>
                 P.S. try hovering over my wolf (if you're on mobile try tapping
                 around it)
