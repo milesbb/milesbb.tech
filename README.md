@@ -1,4 +1,4 @@
-<h1 align="center">milesbb.tech - Portfolio Website</h1>
+<h1 align="center"><a href="https:/milesbb.tech">milesbb.tech</a> - Portfolio Website</h1>
 
 <p align="center">React Portfolio Website - Miles Bailey-Braendgaard</p>
 
