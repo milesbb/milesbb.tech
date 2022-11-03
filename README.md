@@ -1,7 +1,9 @@
-# milesbb.tech - Portfolio Website
+<h1 align="center">milesbb.tech - Portfolio Website</h1>
 
-React Portfolio Website - Miles Bailey-Braendgaard
+<p align="center">React Portfolio Website - Miles Bailey-Braendgaard</p>
 
-[milesbb.tech](https:/milesbb.tech)
+<p>No better way to find out how it looks than checking it out...</p>
 
-[LinkedIn](https://www.linkedin.com/in/milesbaileybraendgaard/)
+<p align="center">[milesbb.tech](https:/milesbb.tech)</p>
+
+<p align="center">[LinkedIn](https://www.linkedin.com/in/milesbaileybraendgaard/)</p>
