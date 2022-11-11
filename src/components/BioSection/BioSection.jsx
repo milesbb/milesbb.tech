@@ -7,11 +7,19 @@ import {ScrollPage} from "react-scroll-motion"
 const BioSection = () => {
   return (
     // <ScrollPage>
+    <div style={{
+      width: "100vw"
+    }}
+    className="mainContainer"
+    >
+
     <div
       style={{
         width: "100vw",
         background: "#1C77C3",
         boxShadow: "1px 7px 15px 7px rgba(0,0,0,0.3)",
+        position: "absolute",
+        zIndex: 99
       }}
       className="d-flex py-5 bio mb-5 mt-5"
       id="projects"
@@ -37,6 +45,7 @@ const BioSection = () => {
           </Button>
         </a>
       </div>
+    </div>
     </div>
     // </ScrollPage>
   );

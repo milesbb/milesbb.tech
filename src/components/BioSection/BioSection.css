@@ -1,40 +1,60 @@
 .bioButtonCont {
-    width: 25%;
+  width: 25%;
 }
 
 .faceImg {
-    width: 22vh;
-    height: 22vh
+  width: 22vh;
+  height: 22vh;
 }
 
 .imageCont {
-    width: 30%;
+  width: 30%;
+}
+
+.mainContainer {
+  height: 50vh;
 }
 
 @media (max-width: 993px) {
-    .faceImg {
-        width: 19vh;
-        height: 19vh
-    }
+  .faceImg {
+    width: 19vh;
+    height: 19vh;
+  }
 }
 
 @media (max-width: 768px) {
-    .bio{
-        flex-direction: column;
-        text-align: center;
-        margin: auto;
-    }
+  .bio {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
 
-    .imageCont {
-        width: 50%;
-    }
+  .imageCont {
+    width: 50%;
+  }
 
-    .bioButtonCont {
-        width: auto;
-    }
+  .bioButtonCont {
+    width: auto;
+  }
 
-    .faceImg {
-        width: 27vh;
-        height: 27vh
-    }
+  .faceImg {
+    width: 27vh;
+    height: 27vh;
+  }
+
+  .mainContainer {
+    height: 80vh;
+  }
 }
+
+@media (max-width: 480px) {
+  .mainContainer {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 420px) {
+    .mainContainer {
+      height: 100vh;
+    }
+  }
