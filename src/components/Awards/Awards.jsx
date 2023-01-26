@@ -9,7 +9,9 @@ import epicode from "../../assets/epicodelogo.png";
 import strive from "../../assets/strivelogo.png";
 import aktiv from "../../assets/aktivlogo.png";
 import ju from "../../assets/julogo.jpeg";
+import aurora from "../../assets/auroralogo.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import "./Awards.css";
 
 const Awards = () => {
   return (
@@ -28,49 +30,137 @@ const Awards = () => {
       </div>
       <Container className="mt-5">
         <Row>
-          <Col sm={12} md={4}>
-            <a
-              href="https://www.arkwright.org.uk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className="mt-4"
-                style={{ width: "100%" }}
-                src={arkwright}
-              />
-            </a>
+          <Col sm={12} md={4} className="auroraCont">
+            <div>
+              <a
+                href="https://auroraer.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className="mt-5 mb-4"
+                  style={{ width: "100%" }}
+                  src={aurora}
+                />
+              </a>
+            </div>
           </Col>
           <Col sm={12} md={8}>
             <div className="p-4">
-              <h4 className="mb-4">Arkwright Engineering Scholarship</h4>
-              <p>2016</p>
+              <h4 className="mb-4">
+                Junior Software Engineer - Aurora Energy Research
+              </h4>
+              <p>Jan 2023 - Present</p>
               <p>
-                'The Arkwright Engineering Scholarships programme is the{" "}
+                Full-stack responsibilities within{" "}
+                <span className="font-weight-bold">micro-services</span> and{" "}
+                <span className="font-weight-bold">micro-frontend</span>{" "}
+                architectures primarily in{" "}
                 <span className="font-weight-bold">
-                  most esteemed scholarship scheme of its type in the UK
+                  Typescript, MySQL, and AWS services including S3, Lambda, and
+                  more.
+                </span>
+              </p>
+              <p>
+                Part of the development and architectural testing of{" "}
+                <span className="font-weight-bold">
+                  fintech SaaS and MaaS (Modelling-as-a-Service) solutions
                 </span>{" "}
-                with over 6,000 Scholarships awarded to date.' -{" "}
+                that handle bulk data and deliver{" "}
                 <span className="font-weight-bold">
-                  <a
-                    href="https://www.arkwright.org.uk/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Arkwright Scholarships Trust
-                  </a>
+                  bespoke financial simulations and analysis
                 </span>
+                to internal and external customers.
               </p>
               <p>
-                Received engineering scholarship after rigorous multi-stage test
-                process and engineering portfolio presentation at the{" "}
-                <span className="font-weight-bold">
-                  University of Southampton
-                </span>
+                Based in Oxford, at{" "}
+                <a
+                  href="https://auroraer.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Aurora Energy Research
+                </a>{" "}
+                head office Software Engineering department often working
+                inter-disciplinarily with analysts and modellers in both{" "}
+                <span className="font-weight-bold">Typescript and Python</span>
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <hr></hr>
+        <Row>
+          <Col sm={12} md={4} className="aktivCont">
+            <div className="d-flex mt-2 justify-content-between">
+              <a
+                href="https://www.aktivortopedteknik.se/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image style={{ width: "48%" }} src={aktiv} />
+                <Image style={{ width: "48%" }} src={skane} />
+              </a>
+            </div>
+          </Col>
+          <Col sm={12} md={8}>
+            <div className="p-4">
+              <h4 className="mb-4" style={{ fontSize: "1.3rem" }}>
+                Intern Prosthetist/Orthotist - Aktiv Ortopedteknik/University
+                Hospital Skåne
+              </h4>
+              <p>Nov 2021 - Jan 2022</p>
+              <p>
+                Clinical placement in Lund, Sweden, working hands-on with
+                patients and collaborating in multidisciplinary teams within{" "}
+                <a
+                  href="https://vard.skane.se/en/skane-university-hospital/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Skåne University-Hosptial
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.aktivortopedteknik.se/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Aktiv Ortopedteknik Lund
+                </a>
+                .
               </p>
               <p>
-                Connected with arkwright scholarship sponsor at UK-based defense
-                firm <span className="font-weight-bold">Ultra Electronics</span>
+                Gained experience with hospital/clinical patient records
+                database infrastructure and mechanical and quality-of-life
+                control software for myo-electric (muscle based electrical
+                signal) and microprocessor prosthetics.
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <hr></hr>
+        <Row>
+          <Col sm={12} md={4}>
+            <a
+              href="https://culturehustle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image className="mt-4 w-75" src={culturehustle} />
+            </a>
+          </Col>
+          <Col sm={12} md={8}>
+            <div className="p-4 mt-4">
+              <h4 className="mb-4">Software Developer - Culture Hustle</h4>
+              <p>May-Dec 2019</p>
+              <p>
+                Previously a production assistant, I was hired to design and
+                code an AI chatbot to assist customers when visiting the
+                e-commerce website
+              </p>
+              <p>
+                Bot was programmed in AIML 2.0 within PandoraBots CI/CD
+                infrastructure
               </p>
             </div>
           </Col>
@@ -128,75 +218,47 @@ const Awards = () => {
         <Row>
           <Col sm={12} md={4}>
             <a
-              href="https://culturehustle.com/"
+              href="https://www.arkwright.org.uk/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image className="mt-4 w-75" src={culturehustle} />
+              <Image
+                className="mt-4"
+                style={{ width: "100%" }}
+                src={arkwright}
+              />
             </a>
           </Col>
           <Col sm={12} md={8}>
-            <div className="p-4 mt-4">
-              <h4 className="mb-4">Software Developer - Culture Hustle</h4>
-              <p>May-Dec 2019</p>
-              <p>
-                Previously a production assistant, I was hired to design and
-                code an AI chatbot to assist customers when visiting the
-                e-commerce website
-              </p>
-              <p>
-                Bot was programmed in AIML 2.0 within PandoraBots CI/CD
-                infrastructure
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <hr></hr>
-        <Row className="mt-5">
-          <Col sm={12} md={4}>
-            <div className="d-flex justify-content-between">
-              <a
-                href="https://www.aktivortopedteknik.se/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image className="mt-5" style={{ width: "48%" }} src={aktiv} />
-                <Image className="mt-5" style={{ width: "48%" }} src={skane} />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
             <div className="p-4">
-              <h4 className="mb-4" style={{ fontSize: "1.3rem" }}>
-                Intern Prosthetist/Orthotist - Aktiv Ortopedteknik/University
-                Hospital Skåne
-              </h4>
-              <p>Nov 2021 - Jan 2022</p>
+              <h4 className="mb-4">Arkwright Engineering Scholarship</h4>
+              <p>2016</p>
               <p>
-                Clinical placement in Lund, Sweden, working hands-on with
-                patients and collaborating in multidisciplinary teams within{" "}
-                <a
-                  href="https://vard.skane.se/en/skane-university-hospital/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Skåne University-Hosptial
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://www.aktivortopedteknik.se/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Aktiv Ortopedteknik Lund
-                </a>
-                .
+                'The Arkwright Engineering Scholarships programme is the{" "}
+                <span className="font-weight-bold">
+                  most esteemed scholarship scheme of its type in the UK
+                </span>{" "}
+                with over 6,000 Scholarships awarded to date.' -{" "}
+                <span className="font-weight-bold">
+                  <a
+                    href="https://www.arkwright.org.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Arkwright Scholarships Trust
+                  </a>
+                </span>
               </p>
               <p>
-                Gained experience with hospital/clinical patient records
-                database infrastructure and mechanical and quality-of-life
-                control software for myo-electric (muscle based electrical
-                signal) and microprocessor prosthetics.
+                Received engineering scholarship after rigorous multi-stage test
+                process and engineering portfolio presentation at the{" "}
+                <span className="font-weight-bold">
+                  University of Southampton
+                </span>
+              </p>
+              <p>
+                Connected with arkwright scholarship sponsor at UK-based defense
+                firm <span className="font-weight-bold">Ultra Electronics</span>
               </p>
             </div>
           </Col>
@@ -235,7 +297,9 @@ const Awards = () => {
           </Col>
           <Col sm={12} md={8}>
             <div className="p-4">
-              <h4 className="mb-4">Full-Stack Developer Course | EPICODE (AKA Strive School)</h4>
+              <h4 className="mb-4">
+                Full-Stack Developer Course | EPICODE (AKA Strive School)
+              </h4>
               <p>Jul - Dec 2022</p>
               <p>
                 High-intensive highly-rated Full-Stack (MERN + PERN) Development
@@ -306,11 +370,11 @@ const Awards = () => {
 
       {/* Resume Button */}
       <div className="mt-5 mb-4 w-75 mx-auto">
-      <AnimationOnScroll animateIn="animate__fadeInLeftBig">
-        <h4 className="my-5">
-          For more information on my experiences or education then check out my
-          CV!
-        </h4>
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+          <h4 className="my-5">
+            For more information on my experiences or education then check out
+            my CV!
+          </h4>
         </AnimationOnScroll>
         <a href={cv} download="MilesBaileyBraendgaardCV.pdf">
           <Button

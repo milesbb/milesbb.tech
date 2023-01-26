@@ -1,0 +1,17 @@
+.auroraCont {
+  margin-top: 100px;
+}
+
+.aktivCont {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .auroraCont {
+    margin-top: 0px;
+  }
+
+  .aktivCont {
+    margin-top: 20px;
+  }
+}

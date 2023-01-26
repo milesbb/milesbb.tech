@@ -29,11 +29,15 @@ const Skills = () => {
               <p style={{ listStyle: "none", fontSize: "1.3rem" }}>
                 Some tools and languages that I've worked with before
               </p>
-              <AnimationOnScroll initiallyVisible={true} delay={1000} animateIn="animate__tada">
-              <p>
-                P.S. try hovering over my wolf (if you're on mobile try tapping
-                around it)
-              </p>
+              <AnimationOnScroll
+                initiallyVisible={true}
+                delay={1000}
+                animateIn="animate__tada"
+              >
+                <p>
+                  P.S. try hovering over my wolf (if you're on mobile try
+                  tapping around it)
+                </p>
               </AnimationOnScroll>
               <div className="d-flex">
                 <div className="mx-auto">
@@ -44,7 +48,7 @@ const Skills = () => {
                     <li>JavaScript</li>
                     <li>TypeScript</li>
                     <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>Python</li>
                     <li>HTML</li>
                     <li>React</li>
                     <li>Redux</li>
@@ -59,13 +63,13 @@ const Skills = () => {
                   >
                     <li>NodeJS</li>
                     <li>Express</li>
-                    <li>Cloudinary</li>
-                    <li>SendGrid</li>
-                    <li>Git + Github</li>
+                    <li>AWS</li>
+                    <li>MySQL</li>
+                    <li>Git/Github</li>
                     <li>MongoDB</li>
                     <li>SQL</li>
                     <li>PostgreSQL</li>
-                    <li>Blender</li>
+                    <li>Gitlabs</li>
                   </ul>
                 </div>
               </div>
