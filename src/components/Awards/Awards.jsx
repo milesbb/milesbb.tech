@@ -70,7 +70,7 @@ const Awards = () => {
                 <span className="font-weight-bold">
                   bespoke financial simulations and analysis
                 </span>
-                to internal and external customers.
+                {" "}to internal and external customers.
               </p>
               <p>
                 Based in Oxford, at{" "}
