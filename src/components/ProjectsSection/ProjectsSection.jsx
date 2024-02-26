@@ -60,12 +60,13 @@ const ProjectsSection = () => {
       className="d-flex flex-column py-5 mb-5"
     >
       <h2 className="text-center mx-auto mb-5">PROJECTS</h2>
-      <div className="px-4">
 
-      <p style={{ fontSize: "1.4rem" }}>
-        A few projects that I've made or been a part of.
-      </p>
+      <div className="px-4">
+        <p style={{ fontSize: "1.4rem" }}>
+          A few projects that I've made or been a part of.
+        </p>
       </div>
+      
       <h3 className="text-center mx-auto my-3">
         Click or tap one to find out more...
       </h3>

@@ -11,7 +11,7 @@ const AboutMeSection = () => {
     >
       <h2 className="text-white mb-4">ABOUT ME</h2>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        Born in the UK, degree in Scandinavia, picked up some languages along
+        From the UK, did degree in Prosthetics in Scandinavia, picked up some languages along
         the way (native English, proficient in Danish and Swedish, intermediate
         German).
       </p>
@@ -20,8 +20,7 @@ const AboutMeSection = () => {
         Research in Oxford, UK.
       </p>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        Outside of coding and gushing over obscure npm packages you can find me
-        dabbling in audio production or trying to learn Mandarin
+        Outside of trying to learn Mandarin and Portuguese, you can find me collecting obscure mysterious npm packages.
       </p>
     </div>
   );

@@ -45,15 +45,15 @@ const Skills = () => {
                     style={{ listStyle: "none" }}
                     className="text-left skillsText mx-auto"
                   >
-                    <li>JavaScript</li>
                     <li>TypeScript</li>
-                    <li>CSS</li>
+                    <li>JavaScript</li>
                     <li>Python</li>
-                    <li>HTML</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>ThreeJS</li>
-                    <li>ReactThreeFiber</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>AWS</li>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
                   </ul>
                 </div>
                 <div className="mx-auto">
@@ -61,15 +61,15 @@ const Skills = () => {
                     style={{ listStyle: "none" }}
                     className="text-left skillsText"
                   >
-                    <li>NodeJS</li>
-                    <li>Express</li>
-                    <li>AWS</li>
-                    <li>MySQL</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Redux</li>
+                    <li>ThreeJS</li>
+                    <li>ReactThreeFiber</li>
                     <li>Git/Github</li>
-                    <li>MongoDB</li>
-                    <li>SQL</li>
-                    <li>PostgreSQL</li>
                     <li>Gitlabs</li>
+                    <li>Jira</li>
                   </ul>
                 </div>
               </div>

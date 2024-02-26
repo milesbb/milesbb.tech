@@ -321,7 +321,7 @@ const Awards = () => {
         <Row>
           <Col sm={12} md={4}>
             <a
-              href="https://www.arkwright.org.uk/"
+              href="https://ju.se/en"
               target="_blank"
               rel="noopener noreferrer"
             >
