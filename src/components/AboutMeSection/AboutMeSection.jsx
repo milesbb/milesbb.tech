@@ -20,7 +20,7 @@ const AboutMeSection = () => {
         Research in Oxford, UK.
       </p>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        Outside of trying to learn Mandarin and Portuguese, you can find me collecting obscure mysterious npm packages.
+        Outside of trying to learn Mandarin and Portuguese, you can find me fiddling with whatever mechatronics project I've been working on recently.
       </p>
     </div>
   );

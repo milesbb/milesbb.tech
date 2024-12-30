@@ -9,6 +9,7 @@ import {
   Move,
   Sticky,
 } from "react-scroll-motion";
+import cv from "../../assets/cv.pdf";
 
 const Title = () => {
   const FadeUp = batch(Fade(), Move(), Sticky());
@@ -37,14 +38,15 @@ const Title = () => {
               </div>
               <h1 className="mb-5 respSubtitle">Software Engineer</h1>
               <div className="d-flex respTitleButtonsCont">
-                <Button
-                  variant="dark"
-                  className="font-weight-bold mx-2 respTitleButtons"
-                  style={{ borderRadius: "0px" }}
-                  href="#projects"
-                >
-                  PROJECTS
-                </Button>
+                <a href={cv} download="MilesBaileyBraendgaardCV.pdf">
+                  <Button
+                    variant="dark"
+                    className="font-weight-bold mx-2 respTitleButtons"
+                    style={{ borderRadius: "0px" }}
+                  >
+                    RESUME/CV
+                  </Button>
+                </a>
                 <Button
                   variant="dark"
                   className="font-weight-bold mx-2 respTitleButtons"
