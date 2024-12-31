@@ -38,11 +38,15 @@ const Title = () => {
               </div>
               <h1 className="mb-5 respSubtitle">Software Engineer</h1>
               <div className="d-flex respTitleButtonsCont">
-                <a href={cv} download="MilesBaileyBraendgaardCV.pdf">
+                <a
+                  href={cv}
+                  download="MilesBaileyBraendgaardCV.pdf"
+                  className="mx-2"
+                >
                   <Button
                     variant="dark"
-                    className="font-weight-bold mx-2 respTitleButtons"
-                    style={{ borderRadius: "0px" }}
+                    className="font-weight-bold respTitleButtons"
+                    style={{ borderRadius: "0px", width: "100%" }}
                   >
                     RESUME/CV
                   </Button>
