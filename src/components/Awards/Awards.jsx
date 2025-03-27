@@ -48,7 +48,7 @@ const Awards = () => {
           <Col sm={12} md={8}>
             <div className="p-4">
               <h4 className="mb-4">
-                Junior Software Engineer - Aurora Energy Research
+                Software Engineer - Aurora Energy Research
               </h4>
               <p>Jan 2023 - Present</p>
               <p>
@@ -69,8 +69,8 @@ const Awards = () => {
                 that handle bulk data and deliver{" "}
                 <span className="font-weight-bold">
                   bespoke financial simulations and analysis
-                </span>
-                {" "}to internal and external customers.
+                </span>{" "}
+                to internal and external customers.
               </p>
               <p>
                 Based in Oxford, at{" "}
