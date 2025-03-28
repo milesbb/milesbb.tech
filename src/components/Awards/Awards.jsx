@@ -357,8 +357,8 @@ const Awards = () => {
               </h4>
               <p>Jul - Dec 2022</p>
               <p>
-                High-intensive highly-rated Full-Stack (MERN + PERN) Development
-                Bootcamp (Formerly known as Strive School)
+                High-intensity highly-rated Full-Stack (MERN + PERN) Development
+                Course (Formerly known as Strive School)
               </p>
               <p>
                 <a
