@@ -50,7 +50,62 @@ const Awards = () => {
               <h4 className="mb-4">
                 Software Engineer - Aurora Energy Research
               </h4>
-              <p>Jan 2023 - Present</p>
+              <p>Mar 2025 - Present</p>
+              <p>
+                Mostly working day to day{" "}
+                <span className="font-weight-bold">
+                  improving architecture and processes
+                </span>{" "}
+                within heavily statistical financial model code. Working to
+                further develop collaboration between Engineering and Modelling
+                departments.
+              </p>
+              <p>
+                <span className="font-weight-bold">
+                  Currently run a multidisciplinary scrum team
+                </span>{" "}
+                with modellers and software engineers
+              </p>
+              <p>
+                Helped start{" "}
+                <span className="font-weight-bold">
+                  'Continuous Improvement'
+                </span>{" "}
+                guild to try and avoid stagnation, improve feeling of devs
+                <span className="font-weight-bold">
+                  having a say' within the team (introduced health check system
+                </span>
+                ' a la 'Spotify'), and constantly
+                <span className="font-weight-bold">
+                  examine and improve our processes
+                </span>
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <hr></hr>
+        <Row>
+          <Col sm={12} md={4} className="auroraCont">
+            <div>
+              <a
+                href="https://auroraer.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className="mt-5 mb-4"
+                  style={{ width: "100%" }}
+                  src={aurora}
+                />
+              </a>
+            </div>
+          </Col>
+          <Col sm={12} md={8}>
+            <div className="p-4">
+              <h4 className="mb-4">
+                Junior Software Engineer - Aurora Energy Research
+              </h4>
+              <p>Jan 2023 - Mar 2025</p>
               <p>
                 Full-stack responsibilities within{" "}
                 <span className="font-weight-bold">micro-services</span> and{" "}
