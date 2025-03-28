@@ -75,7 +75,7 @@ const Awards = () => {
                 <span className="font-weight-bold">
                   'having a say' within the team (introduced health check system
                 </span>{" "}
-                a la 'Spotify'), and constantly
+                a la 'Spotify'), and constantly{" "}
                 <span className="font-weight-bold">
                   examine and improve our processes
                 </span>
