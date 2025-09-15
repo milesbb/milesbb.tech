@@ -2,6 +2,8 @@
 
 <p align="center">React Portfolio Website - Miles Bailey-Braendgaard</p>
 
+<img width="1896" height="850" alt="portfolioscreenshot" src="https://github.com/user-attachments/assets/e0c35cca-1e9e-4c3f-b70e-95529c2ad6e3" />
+
 <p align="center">No better way to find out how it looks than checking it out... 👀</p>
 
 <p align="center"><a href="https://milesbb.tech">milesbb.tech</a></p>
