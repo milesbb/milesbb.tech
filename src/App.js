@@ -19,7 +19,7 @@ function App() {
         <Title />
         <BioSection />
         {/* <ProjectsSection /> */}
-        {/* <ProjectsSectionWithLink /> */}
+        <ProjectsSectionWithLink />
         <AboutMeSection />
         <Skills />
         <Awards />

@@ -1,0 +1,11 @@
+a:hover h3 {
+  color: #9f7195;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  cursor: pointer;
+}
+
+a h3 {
+  color: black;
+  text-decoration: none;
+}

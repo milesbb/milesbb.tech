@@ -80,6 +80,11 @@ const Awards = () => {
                   examine and improve our processes
                 </span>
               </p>
+              <p>
+                <span className="font-weight-bold">
+                  Run 1st and 2nd round interviews and line manage Junior Software Engineers
+                </span>
+              </p>
             </div>
           </Col>
         </Row>
