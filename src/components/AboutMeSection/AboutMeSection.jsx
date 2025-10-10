@@ -11,16 +11,14 @@ const AboutMeSection = () => {
     >
       <h2 className="text-white mb-4">ABOUT ME</h2>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        From the UK, did degree in Prosthetics in Scandinavia, picked up some
-        languages along the way (native English, proficient in Danish and
-        Swedish, intermediate German).
+        Been working as a Software Engineer in Oxford, UK for the past 3 years at a renewable energy fintech. Initially full stack and then focused into backend (both across cloud based dev-owned architecture and refactoring legacy code in statistical models) but can work comfortably in both. Lead a team for the last year and a half and experience line-managing and interviewing.
       </p>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        Currently working as a Software Engineer at Aurora Energy Research in
-        Oxford, UK.
+        From the UK though with a Danish background. Did my degree in Prosthetics and Orthotics in Sweden and learnt Swedish so I could understand all of the jokes about Denmark. Can speak English, Danish and
+        Swedish, can understand German (speaking is somewhat rusty but can get by), and my mandarin is laughable but working towards HK1.
       </p>
       <p className="text-white px-4 mx-auto mt-2 w-75">
-        Outside of trying to learn Mandarin and Portuguese, you can find me
+        Outside of trying to learn Mandarin, you can find me trying to hit my next Olympic Lifting PB or
         fiddling with whatever mechatronics project I've been working on
         recently.
       </p>

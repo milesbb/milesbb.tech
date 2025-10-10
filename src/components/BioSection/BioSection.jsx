@@ -30,8 +30,8 @@ const BioSection = () => {
       <div className="w-75 d-flex mx-auto mt-5">
         <p className="text-white pr-md-4 mx-auto mt-2">
           Fullstack engineer constantly learning and developing my skills.
-          Background in biomechanics, computer science, engineering, and the
-          arts.
+          3 YoE with heaps of teamwork and plenty of leadership experience (incl. line managing and interviewing).
+          Check out my RESUME for more details!
         </p>
       </div>
       <div className="bioButtonCont d-flex mx-auto mt-5">
