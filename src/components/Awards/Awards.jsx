@@ -151,6 +151,7 @@ const Awards = () => {
           }
           title="Intern Prosthetist/Orthotist"
           workplaceName="Aktiv Ortopedteknik/University Hospital Skåne"
+          titleStyle={{ fontSize: "1.3rem" }}
           content={
             <>
               <p>Nov 2021 - Jan 2022</p>
