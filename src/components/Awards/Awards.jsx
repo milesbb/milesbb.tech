@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Container, Image } from "react-bootstrap";
 import arkwright from "../../assets/arkwrightimg.png";
 import uniq from "../../assets/uniqlogo.png";
 import oxford from "../../assets/oxfordlogo.png";
@@ -12,6 +12,7 @@ import ju from "../../assets/julogo.jpeg";
 import aurora from "../../assets/auroralogo.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "./Awards.css";
+import ExperienceSection from "./ExperienceSection";
 
 const Awards = () => {
   return (
@@ -29,27 +30,21 @@ const Awards = () => {
         <h2 className="">Awards and Experiences</h2>
       </div>
       <Container className="mt-5">
-        <Row>
-          <Col sm={12} md={4} className="auroraCont">
-            <div>
-              <a
-                href="https://auroraer.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  className="mt-5 mb-4"
-                  style={{ width: "100%" }}
-                  src={aurora}
-                />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">
-                Software Engineer - Aurora Energy Research
-              </h4>
+        <ExperienceSection
+          specialMarginClass="auroraCont"
+          tooltip="Click to visit Aurora Energy Research's Website!"
+          websiteUrl="https://auroraer.com/"
+          image={
+            <Image
+              className="mt-5 mb-4"
+              style={{ width: "100%" }}
+              src={aurora}
+            />
+          }
+          title="Software Engineer"
+          workplaceName="Aurora Energy Research"
+          content={
+            <>
               <p>Mar 2025 - Present</p>
               <p>
                 Mostly working day to day{" "}
@@ -82,34 +77,29 @@ const Awards = () => {
               </p>
               <p>
                 <span className="font-weight-bold">
-                  Run 1st and 2nd round interviews and line manage Junior Software Engineers
+                  Run 1st and 2nd round interviews and line manage Junior
+                  Software Engineers
                 </span>
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4} className="auroraCont">
-            <div>
-              <a
-                href="https://auroraer.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  className="mt-5 mb-4"
-                  style={{ width: "100%" }}
-                  src={aurora}
-                />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">
-                Junior Software Engineer - Aurora Energy Research
-              </h4>
+        <ExperienceSection
+          specialMarginClass="auroraCont"
+          tooltip="Click to visit Aurora Energy Research's Website!"
+          websiteUrl="https://auroraer.com/"
+          image={
+            <Image
+              className="mt-5 mb-4"
+              style={{ width: "100%" }}
+              src={aurora}
+            />
+          }
+          title="Junior Software Engineer"
+          workplaceName="Aurora Energy Research"
+          content={
+            <>
               <p>Jan 2023 - Mar 2025</p>
               <p>
                 Full-stack responsibilities within{" "}
@@ -145,29 +135,24 @@ const Awards = () => {
                 inter-disciplinarily with analysts and modellers in both{" "}
                 <span className="font-weight-bold">Typescript and Python</span>
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4} className="aktivCont">
-            <div className="d-flex mt-2 justify-content-between">
-              <a
-                href="https://www.aktivortopedteknik.se/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image style={{ width: "48%" }} src={aktiv} />
-                <Image style={{ width: "48%" }} src={skane} />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4" style={{ fontSize: "1.3rem" }}>
-                Intern Prosthetist/Orthotist - Aktiv Ortopedteknik/University
-                Hospital Skåne
-              </h4>
+        <ExperienceSection
+          specialMarginClass="aktivCont"
+          tooltip="Click to visit Aktiv Ortopedteknik's Website!"
+          websiteUrl="https://www.aktivortopedteknik.se/"
+          image={
+            <>
+              <Image style={{ width: "48%" }} src={aktiv} />
+              <Image style={{ width: "48%" }} src={skane} />
+            </>
+          }
+          title="Intern Prosthetist/Orthotist"
+          workplaceName="Aktiv Ortopedteknik/University Hospital Skåne"
+          content={
+            <>
               <p>Nov 2021 - Jan 2022</p>
               <p>
                 Clinical placement in Lund, Sweden, working hands-on with
@@ -195,23 +180,24 @@ const Awards = () => {
                 control software for myo-electric (muscle based electrical
                 signal) and microprocessor prosthetics.
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4}>
-            <a
-              href="https://culturehustle.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image className="mt-4 w-75" src={culturehustle} />
-            </a>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4 mt-4">
-              <h4 className="mb-4">Software Developer - Culture Hustle</h4>
+        <ExperienceSection
+          tooltip="Click to visit Culture Hustle's Website!"
+          websiteUrl="https://culturehustle.com/"
+          image={
+            <Image
+              className="mt-4"
+              style={{ width: "100%" }}
+              src={culturehustle}
+            />
+          }
+          title="Software Developer"
+          workplaceName="Culture Hustle"
+          content={
+            <>
               <p>May-Dec 2019</p>
               <p>
                 Previously a production assistant, I was hired to design and
@@ -222,28 +208,22 @@ const Awards = () => {
                 Bot was programmed in AIML 2.0 within PandoraBots CI/CD
                 infrastructure
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4}>
-            <div className="d-flex justify-content-between">
-              <a
-                href="https://www.uniq.ox.ac.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image className="mt-5" style={{ width: "48%" }} src={uniq} />
-                <Image className="mt-5" style={{ width: "48%" }} src={oxford} />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">
-                UNIQ Official Oxford University Summer School
-              </h4>
+        <ExperienceSection
+          tooltip="Click to visit Oxford University's UNIQ Programme Website!"
+          websiteUrl="https://www.uniq.ox.ac.uk/"
+          image={
+            <>
+              <Image className="mt-5" style={{ width: "48%" }} src={uniq} />
+              <Image className="mt-5" style={{ width: "48%" }} src={oxford} />
+            </>
+          }
+          workplaceName="UNIQ Official Oxford University Summer School"
+          content={
+            <>
               <p>2017</p>
               <p>
                 'UNIQ is the{" "}
@@ -271,27 +251,19 @@ const Awards = () => {
                 summer school with specialisation in Engineering, Solid
                 Mechanics, and Engineering software including MATLAB and C++
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4}>
-            <a
-              href="https://www.arkwright.org.uk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className="mt-4"
-                style={{ width: "100%" }}
-                src={arkwright}
-              />
-            </a>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">Arkwright Engineering Scholarship</h4>
+        <ExperienceSection
+          tooltip="Click to visit Arkwright Scholarships Trust's Website!"
+          websiteUrl="https://www.arkwright.org.uk/"
+          image={
+            <Image className="mt-4" style={{ width: "100%" }} src={arkwright} />
+          }
+          workplaceName="Arkwright Engineering Scholarship"
+          content={
+            <>
               <p>2016</p>
               <p>
                 'The Arkwright Engineering Scholarships programme is the{" "}
@@ -320,9 +292,9 @@ const Awards = () => {
                 Connected with arkwright scholarship sponsor at UK-based defense
                 firm <span className="font-weight-bold">Ultra Electronics</span>
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
       </Container>
 
       {/* EDUCATION */}
@@ -338,28 +310,19 @@ const Awards = () => {
         <h2 className="">Education</h2>
       </div>
       <Container className="mt-5">
-        <Row>
-          <Col sm={12} md={4}>
-            <div className="d-flex justify-content-between">
-              <a
-                href="https://epicode.com/en/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  className="mt-2"
-                  style={{ width: "48%" }}
-                  src={epicode}
-                />
-                <Image className="mt-2" style={{ width: "48%" }} src={strive} />
-              </a>
-            </div>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">
-                Full-Stack Developer Course | EPICODE (AKA Strive School)
-              </h4>
+        <ExperienceSection
+          tooltip="Click to visit Epicode's Website!"
+          websiteUrl="https://epicode.com/en/"
+          image={
+            <>
+              <Image style={{ width: "48%" }} src={epicode} />
+              <Image style={{ width: "48%" }} src={strive} />
+            </>
+          }
+          title="Full-Stack Developer Course"
+          workplaceName="EPICODE (AKA Strive School)"
+          content={
+            <>
               <p>Jul - Dec 2022</p>
               <p>
                 High-intensity highly-rated Full-Stack (MERN + PERN) Development
@@ -374,26 +337,20 @@ const Awards = () => {
                   More info
                 </a>
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
         <hr></hr>
-        <Row>
-          <Col sm={12} md={4}>
-            <a
-              href="https://ju.se/en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image className="mt-5 w-75" src={ju} />
-            </a>
-          </Col>
-          <Col sm={12} md={8}>
-            <div className="p-4">
-              <h4 className="mb-4">
-                BSc Prosthetics and Orthotics (Orthopaedic Engineering) -
-                Jönköping University
-              </h4>
+        <ExperienceSection
+          tooltip="Click to visit Jönköping University's Website!"
+          websiteUrl="https://ju.se/en"
+          image={
+            <Image className="mt-5 mb-4" style={{ width: "100%" }} src={ju} />
+          }
+          title="BSc Prosthetics and Orthotics (Orthopaedic Engineering)"
+          workplaceName="Jönköping University"
+          content={
+            <>
               <p>2019-2022</p>
               <p>Grade: Swedish 'Godkänd', equivalent to UK 2:1 </p>
               <p>
@@ -423,9 +380,10 @@ const Awards = () => {
                 </a>
                 )
               </p>
-            </div>
-          </Col>
-        </Row>
+            </>
+          }
+        />
+        <hr></hr>
       </Container>
 
       {/* Resume Button */}

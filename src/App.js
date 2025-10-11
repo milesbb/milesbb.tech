@@ -10,10 +10,12 @@ import ContactMeSection from "./components/ContactMeSection/ContactMeSection";
 import Awards from "./components/Awards/Awards";
 import { ScrollContainer } from "react-scroll-motion";
 import ProjectsSectionWithLink from "./components/ProjectsSection/ProjectsSectionWithLink";
+import ScrollDownHint from "./components/ScrollDownHint/ScrollDownHint";
 
 function App() {
   return (
     <div className="App">
+      <ScrollDownHint />
       <IconsTop />
       <ScrollContainer>
         <Title />
